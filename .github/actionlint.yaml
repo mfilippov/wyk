@@ -1,0 +1,3 @@
+self-hosted-runner:
+  labels:
+    - codesign # the signing host's runner, see mfilippov/github-codesign
