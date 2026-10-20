@@ -1,0 +1,10 @@
+version: "2"
+linters:
+  # On top of the default (standard) set.
+  enable:
+    - gosec
+    - misspell
+    - unconvert
+formatters:
+  enable:
+    - gofmt
